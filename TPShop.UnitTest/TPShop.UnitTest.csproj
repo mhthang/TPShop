@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>b719711f-769b-49c2-b625-1b822164f33f</ProjectGuid>
+    <ProjectGuid>{45196738-E2B2-4FF9-8DC6-B1A35B20BFD1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TPShop.UnitTest</RootNamespace>
@@ -52,6 +52,28 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TPShop.Common\TPShop.Common.csproj">
+      <Project>{2ec3fcb8-0c28-43aa-960d-5c4ac7913e6c}</Project>
+      <Name>TPShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPShop.Data\TPShop.Data.csproj">
+      <Project>{b2cb89bf-c50a-4ad6-8b5a-b0b0ee3a556d}</Project>
+      <Name>TPShop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPShop.Model\TPShop.Model.csproj">
+      <Project>{2b88dc59-d7dc-4ad7-8189-3032e6a820c3}</Project>
+      <Name>TPShop.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPShop.Service\TPShop.Service.csproj">
+      <Project>{7abe1953-d1df-497a-b6ac-ab2f2882875d}</Project>
+      <Name>TPShop.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPShop.WebApp\TPShop.WebApp.csproj">
+      <Project>{19bd3d97-e356-49df-b449-ea82396f1ffe}</Project>
+      <Name>TPShop.WebApp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

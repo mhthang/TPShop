@@ -3,7 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPShop.Common", "TPShop.Common\TPShop.Common.csproj", "{2EC3FCB8-0C28-43AA-960D-5C4AC7913E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPShop.Model", "TPShop.Model\TPShop.Model.csproj", "{2B88DC59-D7DC-4AD7-8189-3032E6A820C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPShop.Data", "TPShop.Data\TPShop.Data.csproj", "{B2CB89BF-C50A-4AD6-8B5A-B0B0EE3A556D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPShop.Service", "TPShop.Service\TPShop.Service.csproj", "{7ABE1953-D1DF-497A-B6AC-AB2F2882875D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPShop.UnitTest", "TPShop.UnitTest\TPShop.UnitTest.csproj", "{45196738-E2B2-4FF9-8DC6-B1A35B20BFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPShop.WebApp", "TPShop.WebApp\TPShop.WebApp.csproj", "{19BD3D97-E356-49DF-B449-EA82396F1FFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{442ADBF5-C262-4560-A58F-3B4B1CE821F8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC3FCB8-0C28-43AA-960D-5C4AC7913E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC3FCB8-0C28-43AA-960D-5C4AC7913E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC3FCB8-0C28-43AA-960D-5C4AC7913E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC3FCB8-0C28-43AA-960D-5C4AC7913E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B88DC59-D7DC-4AD7-8189-3032E6A820C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B88DC59-D7DC-4AD7-8189-3032E6A820C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B88DC59-D7DC-4AD7-8189-3032E6A820C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B88DC59-D7DC-4AD7-8189-3032E6A820C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CB89BF-C50A-4AD6-8B5A-B0B0EE3A556D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CB89BF-C50A-4AD6-8B5A-B0B0EE3A556D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CB89BF-C50A-4AD6-8B5A-B0B0EE3A556D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CB89BF-C50A-4AD6-8B5A-B0B0EE3A556D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABE1953-D1DF-497A-B6AC-AB2F2882875D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABE1953-D1DF-497A-B6AC-AB2F2882875D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABE1953-D1DF-497A-B6AC-AB2F2882875D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABE1953-D1DF-497A-B6AC-AB2F2882875D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45196738-E2B2-4FF9-8DC6-B1A35B20BFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45196738-E2B2-4FF9-8DC6-B1A35B20BFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45196738-E2B2-4FF9-8DC6-B1A35B20BFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45196738-E2B2-4FF9-8DC6-B1A35B20BFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BD3D97-E356-49DF-B449-EA82396F1FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BD3D97-E356-49DF-B449-EA82396F1FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BD3D97-E356-49DF-B449-EA82396F1FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BD3D97-E356-49DF-B449-EA82396F1FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
